@@ -59,7 +59,7 @@ class DetailView extends StatelessWidget {
                     ),
                     Flexible(
                       child: Text(
-                        "Rp. ${field.price} / hour",
+                        "Rs. ${field.price} / hour",
                         overflow: TextOverflow.visible,
                         style: addressTextStyle,
                       ),
