@@ -233,6 +233,22 @@ SportField swimcult1 = SportField(
     imageAsset: "assets/images/vio_basketball.jpg",
     price: 100);
 
+SportField swimcult2 = SportField(
+    id: "12",
+    name: "JP Nagar Sports Club",
+    address: "JP Nagar",
+    category: _swim,
+    facilities: [_wifi, _toilet, _changingRoom, _canteen],
+    author: "Lohith",
+    authorUrl: "https://unsplash.com/@fiercelupus",
+    imageUrl: "https://unsplash.com/photos/zygvOSND4rI",
+    phoneNumber: "081 3333 4444",
+    openDay: "All Day",
+    openTime: "07.00",
+    closeTime: "21.00",
+    imageAsset: "assets/images/vio_basketball.jpg",
+    price: 100);
+
 List<SportField> sportFieldList = [
   futsalRionov,
   basketballVio,
